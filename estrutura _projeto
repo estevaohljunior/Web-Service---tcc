@@ -1,0 +1,24 @@
+nfce_analyzer/
+├── app/
+│   ├── __init__.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── chave_acesso.py
+│   │   └── analise_result.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   └── analisador_service.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   └── utils/
+│       ├── __init__.py
+│       └── validators.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_models.py
+│   └── test_services.py
+├── config.py
+├── requirements.txt
+├── run.py
+└── README.md
